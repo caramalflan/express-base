@@ -19,6 +19,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "serverstart": "DEBUG=aetherfe-express:* & yarn run devstart"
+    "dev": "NODE_ENV=development DEBUG=aetherfe-express:* & yarn run devstart",
+    "prod": "NODE_ENV=production yarn run start"
   }
 }
