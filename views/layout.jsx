@@ -15,10 +15,13 @@ let Layout = (props) => {
           crossOrigin="anonymous" />
         <link
           rel="stylesheet"
-          href="/public/stylesheets/app.css" />
+          href="/public/stylesheets/styles.css" />
       </head>
       <body>
         {props.children}
+        <script
+          type="text/javascript"
+          src="/public/javascripts/app.js" />
       </body>
     </html>
   )
