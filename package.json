@@ -7,7 +7,8 @@
     "devstart": "nodemon ./bin/www",
     "dev": "NODE_ENV=development DEBUG=aetherfe-express:* yarn run devstart",
     "prod": "NODE_ENV=production yarn run start",
-    "sass": "sass --watch ./sass/app.scss:./public/stylesheets/app.css --style compressed"
+    "sass": "sass --watch ./sass/app.scss:./public/stylesheets/app.css --style compressed",
+    "test": "jest"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -20,6 +21,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "jest": "^26.6.3",
     "nodemon": "^2.0.6",
     "sass": "^1.29.0"
   }
