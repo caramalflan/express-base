@@ -1,6 +1,4 @@
-import React from 'react'
+// FRONTEND APP ENTRY POINT
 
-var h = document.getElementsByTagName("h1")[0]
-h.style.backgroundColor = "red"
-
-console.log('hellooo');
+console.log('hellooooo');
+console.log('hi')
